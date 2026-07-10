@@ -81,3 +81,61 @@ nav ul li a {
   margin-top: 12rem;
   border: none;
 }
+
+.speakers-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 5rem auto;
+  font-family: "Inter", sans-serif;
+}
+
+.speakers-container h2 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 3.125rem;
+  color: #000102;
+}
+
+.speaker-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.875rem;
+}
+
+.speakers-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.75rem;
+  overflow: hidden;
+}
+
+.speakers-card img {
+  width: 100%;
+  height: 16.25rem;
+  object-fit: cover;
+  display: block;
+}
+
+.speakers-content {
+  padding: 1.25rem;
+}
+
+.speakers-content span {
+  font-size: 0.688rem;
+  font-weight: bold;
+  color: #2563eb;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.speakers-content h3 {
+  margin: 0.625rem 0 0.5rem;
+  font-size: 1.5rem;
+  color: #0d1b2a;
+}
+
+.speakers-content p {
+  font-size: 0.938rem;
+  color: #575757;
+  line-height: 1.6;
+}
