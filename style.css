@@ -449,3 +449,48 @@ nav ul li a {
   border-radius: 1rem;
   border: #fff 0.0625rem solid;
 }
+
+.footer {
+  background: #0D1B2A;
+  padding: 2rem 4rem;
+  font-family: "Inter", sans-serif;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-links a {
+  width: 2.75rem;
+  height: 2.75rem;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #cbd5e1;
+  text-decoration: none;
+}
+
+.footer hr {
+  margin: 2rem 0;
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.footer-bottom {
+  text-align: center;
+}
+
+.footer-bottom p {
+  margin: 0;
+  color: #fff;
+  font-size: 0.9rem;
+}
